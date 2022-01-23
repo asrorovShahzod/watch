@@ -1,0 +1,47 @@
+.nike__box {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 176px;
+    position: relative;
+}
+
+.nike__img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.nike__title {
+    max-width: 380px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.nike__info {
+    width: 493px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.nike__liner {
+    height: 120px;
+    border: 2px solid #888888;
+    margin-right: 40px;
+}
+
+.nike__text {
+    max-width: 450px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+}
+
+.keynote {}

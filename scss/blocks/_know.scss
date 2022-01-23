@@ -1,0 +1,81 @@
+.know {}
+
+.container {}
+
+.know__box {
+    width: 100%;
+    padding-top: 68px;
+    padding-bottom: 140px;
+}
+
+.know__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+}
+
+.know__list {
+    width: 280px;
+}
+
+.know__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.know__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.pages {
+    width: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page {
+    width: 8px;
+    height: 8px;
+    background-color: #DDDDDD;
+}
+
+.pagess {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pages_liner {
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #EA625C;
+    margin-right: 10px;
+    transition: all 0.7s ease;
+    &:hover {
+        width: 80px;
+    }
+}
+
+.pages_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #EA625C;
+}

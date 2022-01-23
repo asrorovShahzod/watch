@@ -1,0 +1,43 @@
+.footer {
+    background-image: url(../../images/bgri.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer__box {
+    padding-top: 240px;
+    padding-left: 635px;
+    padding-bottom: 240px;
+}
+
+.footer__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.footer__info {
+    align-items: center;
+    display: flex;
+}
+
+.footer__liner {
+    border: 2px solid #FFFFFF;
+    height: 120px;
+    margin-right: 40px;
+}
+
+.footer__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.keynote {}

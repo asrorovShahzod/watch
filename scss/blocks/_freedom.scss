@@ -1,0 +1,68 @@
+.freedom {
+    background-image: url(../../images/intro-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 1080px;
+    background-position-y: 80px;
+}
+
+.container {}
+
+.freedom__box {
+    width: 100%;
+    padding-top: 170px;
+    padding-bottom: 185px;
+}
+
+.freedom__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.freedom__info {
+    max-width: 493px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.freedom__liner {
+    height: 120px;
+    width: 3px;
+    background-color: #888888;
+    margin-right: 40px;
+}
+
+.freedom__text {
+    max-width: 420px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+}
+
+.keynote {
+    text-decoration: none;
+    padding: 12px 38px;
+    background: #EA625C;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.bigliner {
+    width: 100%;
+    border: 2px solid #DDDDDD;
+}
