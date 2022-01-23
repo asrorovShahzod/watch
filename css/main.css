@@ -398,16 +398,6 @@ template {
   margin: 0 auto;
 }
 
-.header {
-  background-color: #fff;
-  opacity: 0.8;
-  position: fixed;
-  -webkit-box-shadow: 5px 5px 5px 5px grey;
-          box-shadow: 5px 5px 5px 5px grey;
-  z-index: 2;
-  width: 100%;
-}
-
 .header__box {
   width: 100%;
   display: -webkit-box;
@@ -494,7 +484,7 @@ template {
   left: 0;
   bottom: 0;
   width: 0px;
-  height: 0px;
+  height: 3px;
   background-color: black;
   -webkit-transition: 0.6s linear;
   transition: 0.6s linear;
@@ -503,8 +493,6 @@ template {
 
 .header__link:hover {
   color: black;
-  cursor: pointer;
-  opacity: 0.3;
 }
 
 .header__link:hover::before {

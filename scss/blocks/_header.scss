@@ -1,77 +1,68 @@
-            .header {
-                background-color: #fff;
-                opacity: 0.8;
-                position: fixed;
-                box-shadow: 5px 5px 5px 5px grey;
-                z-index: 2;
-                width: 100%;
-            }
-            
-            .container {}
-            
-            .header__box {
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
-            
-            .header__item {
-                display: flex;
-                align-items: center;
-                list-style-type: none;
-            }
-            
-            .header__list {}
-            
-            .header_input {
-                padding: 6px 0;
-                width: 152px;
-                border: none;
-                outline: 0;
-                border-bottom: 2px solid black;
-                &::placeholder {
+                .header {}
+                
+                .container {}
+                
+                .header__box {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                
+                .header__item {
+                    display: flex;
+                    align-items: center;
+                    list-style-type: none;
+                }
+                
+                .header__list {}
+                
+                .header_input {
+                    padding: 6px 0;
+                    width: 152px;
+                    border: none;
+                    outline: 0;
+                    border-bottom: 2px solid black;
+                    &::placeholder {
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        color: #666666;
+                    }
+                }
+                
+                .header__link {
+                    text-decoration: none;
+                    padding: 9px 0px;
+                    margin-right: 20px;
+                    margin-left: 20px;
                     font-family: Roboto;
                     font-style: normal;
                     font-weight: normal;
-                    font-size: 14px;
-                    color: #666666;
-                }
-            }
-            
-            .header__link {
-                text-decoration: none;
-                padding: 9px 0px;
-                margin-right: 20px;
-                margin-left: 20px;
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 15px;
-                line-height: 150%;
-                text-align: center;
-                color: #333333;
-                position: relative;
-                transition: 1s linear;
-                &::before {
-                    content: '';
-                    position: absolute;
-                    left: 0;
-                    bottom: 0;
-                    width: 0px;
-                    height: 0px;
-                    background-color: black;
-                    transition: 0.6s linear;
-                    border: 0 solid transparent;
-                }
-                &:hover {
-                    color: black;
+                    font-size: 15px;
+                    line-height: 150%;
+                    text-align: center;
+                    color: #333333;
+                    position: relative;
+                    transition: 1s linear;
                     &::before {
-                        width: 100%;
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 0px;
                         height: 3px;
-                        border: 1px solid black;
+                        background-color: black;
+                        transition: 0.6s linear;
+                        border: 0 solid transparent;
                     }
-                    cursor: pointer;
-                    opacity: 0.3;
+                    &:hover {
+                        color: black;
+                        &::before {
+                            width: 100%;
+                            height: 3px;
+                            border: 1px solid black;
+                        }
+                    }
                 }
-            }
